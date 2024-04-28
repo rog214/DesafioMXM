@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PcLiiR90PglLzKTCZjr4WHfRbSGVBcTEjlwz2k0X5S2IDIdcvqW2rYEWZV2n1fx/WNOm8ViSvuRgt3blH8tL1Q==",
+  "dgSpecHash": "HivyA4SN9kpBExYG8M5pCW+IULhPP9DVCF3ivMNU9ZjzXMvzet/oDRg8DXv9YF28bk9trhHK5/E8ouxVA06vEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio 1 Angular e dotnet\\crudAPI\\crudAPI.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio MXM Crud Angular e Dotnet\\crudAPI\\crudAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",

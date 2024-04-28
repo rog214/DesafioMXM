@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio 1 Angular e dotnet\\crudAPI\\crudAPI.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio MXM Crud Angular e Dotnet\\crudAPI\\crudAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio 1 Angular e dotnet\\crudAPI\\crudAPI.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio MXM Crud Angular e Dotnet\\crudAPI\\crudAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio 1 Angular e dotnet\\crudAPI\\crudAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio MXM Crud Angular e Dotnet\\crudAPI\\crudAPI.csproj",
         "projectName": "crudAPI",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio 1 Angular e dotnet\\crudAPI\\crudAPI.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio MXM Crud Angular e Dotnet\\crudAPI\\crudAPI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio 1 Angular e dotnet\\crudAPI\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\Desafio MXM\\Desafio MXM Crud Angular e Dotnet\\crudAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
