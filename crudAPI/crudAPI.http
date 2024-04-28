@@ -1,0 +1,7 @@
+@crudAPI_HostAddress = http://localhost:5244
+
+GET {{crudAPI_HostAddress}}/users/
+Accept: application/json
+
+###
+

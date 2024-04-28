@@ -1,0 +1,132 @@
+.container{
+    display: flex;
+    gap: 15px;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro {
+    min-height: 70vh;
+    height: 500px;
+    min-width: 30vw;
+    width: 30vw;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .cadastro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cadastro label {
+    font-weight: bold;
+  }
+  
+  .cadastro input[type="text"],
+  .cadastro input[type="email"],
+  .cadastro input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cadastro button[type="submit"],
+  .cadastro button[type="button"] {
+    margin: 8px 6px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cadastro button[type="submit"]:hover,
+  .cadastro button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+.lista {
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    min-height: 70vh;
+    height: 500px;
+    min-width: 30vw;
+    width: 30vw;
+    text-align: center;
+    overflow-y: auto;
+  }
+  .lista h3{
+    text-align: center;
+    margin: 10px;
+  }
+  .lista button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .lista button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-item {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .user-item p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .user-item button {
+    margin: 2px 6px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-item button:hover {
+    background-color: #c82333;
+  }
+
+@media screen and (max-width: 800px) {
+    .container {
+        display: block;
+        width: 100vw;
+        margin-bottom: 2em;
+    }
+    .cadastro{
+        display: flex;
+        flex-direction: column;
+        max-height: max-content;
+        height: max-content;
+        margin: 0px auto 2em auto;
+        min-width: 60vw;
+    }
+    .lista {
+        max-height: max-content;
+        margin: 0px auto 2em auto;
+        min-width: 60vw;
+    }
+    .lista button {
+        width: 150px;
+        margin: 5px;
+    }
+}

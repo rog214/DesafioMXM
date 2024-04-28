@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="cadastro">
+      <h2>Desafio MXM</h2>
+      <form (ngSubmit)="addUser()" #userForm="ngForm">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" required [(ngModel)]="newUser.email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" class="form-control" id="nome" required [(ngModel)]="newUser.nome" name="nome">
+        </div>
+        <div class="form-group">
+          <label for="dataNascimento">Data de Nascimento:</label>
+          <input type="date" class="form-control" id="dataNascimento" required [(ngModel)]="newUser.dataNascimento" name="dataNascimento">
+        </div>
+        <div class="form-group">
+          <label for="linkedIn">LinkedIn:</label>
+          <input type="text" class="form-control" id="linkedIn" required [(ngModel)]="newUser.linkedIn" name="linkedIn">
+        </div>
+        <div class="form-group">
+          <label for="instagram">Instagram:</label>
+          <input type="text" class="form-control" id="instagram" required [(ngModel)]="newUser.instagram" name="instagram">
+        </div>
+        <div class="form-group">
+          <label for="profissao">Profissão:</label>
+          <input type="text" class="form-control" id="profissao" [(ngModel)]="newUser.profissao" name="profissao">
+        </div>
+  
+        <button type="submit">{{ isConfirming ? 'Confirmar Alteração' : 'Adicionar Usuário' }}</button>
+        <button type="button" (click)="cancelEdit()" *ngIf="isEditing">Cancelar</button>
+      </form>
+    </div>
+    
+    <div class="lista">
+      <h3>Lista de Usuários</h3>
+      <button (click)="toggleUserList()">Mostrar Lista de Usuários</button>
+      <ul *ngIf="showUserList">
+        <li *ngFor="let user of users" class="user-item">
+          <p>ID: {{ user.id }}</p>
+          <p>Nome: {{ user.nome }}</p>
+          <p>Email: {{ user.email }}</p>
+          <p>Data de Nascimento: {{ user.dataNascimento }}</p>
+          <p>LinkedIn: {{ user.linkedIn }}</p>
+          <p>Instagram: {{ user.instagram }}</p>
+          <p>Profissão: {{ user.profissao || 'Não informada' }}</p>
+          <button (click)="editUser(user)">Editar</button>
+          <button (click)="deleteUser(user.id)">Excluir</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
